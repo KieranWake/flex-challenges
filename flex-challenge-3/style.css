@@ -21,12 +21,14 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    padding: 0;
 }
 
 .left-side {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    padding: 0;
 }
 
 .profile-image {
@@ -57,10 +59,13 @@ button {
 a {
   text-decoration: none;
   color: rebeccapurple;
+  padding: 8px 8px;
+
 }
 
 ul {
     display: flex;
     list-style-type: none;
+    padding: 10px;
 
 }
