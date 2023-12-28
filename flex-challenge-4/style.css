@@ -11,7 +11,16 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 10px;
   }
+
+  .text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
   
   .title {
     display: flex;
@@ -19,7 +28,9 @@ body {
     align-items: center;
     font-size: 36px;
     font-weight: 900;
+    margin: 10px;
   }
+
   
   /* do not edit this footer */
   .footer {
