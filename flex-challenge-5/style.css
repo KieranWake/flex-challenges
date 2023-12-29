@@ -83,12 +83,22 @@ button.cancel {
 }
 
 .content-container {
-    margin: 8px;
-    padding: 8px;
+    margin: 5px;
+    padding: 5px;
+    line-height: 20px;
 }
 
 .header {
+    margin-top: .5rem;
     font-weight: bold;
     font-size: 1.3em;
+}
+
+.text {
+    margin-top: 10px;
+}
+
+.continue, .cancel {
+    margin-top: 12px;
 }
 
