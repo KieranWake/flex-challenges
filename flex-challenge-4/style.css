@@ -13,19 +13,27 @@ body {
     align-items: center;
     text-align: center;
     vertical-align: top;
-    justify-content: center;
     margin: 10px;
   }
 
-  
-  
+  .image-one, 
+  .image-two,
+  .image-three,
+  .image-four {
+    margin: 40px;
+  }
+
+  .text {
+    width: 200px;
+  }
+
   .title {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 36px;
     font-weight: 900;
-    margin: 10px;
+    margin-top: 15px;
   }
 
   
