@@ -31,3 +31,19 @@ input {
 .right-links {
     list-style-type: none;
 }
+
+.header {
+    display: flex; 
+    justify-content: space-between;
+}
+
+.header .left-links
+.right-links {
+    display: flex;
+    gap: 10px;
+}
+
+
+
+
+
