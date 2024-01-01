@@ -29,12 +29,15 @@ input {
   margin-bottom: 16px;
 }
 
-.header, 
-.left-links, 
-.right-links {
+.header {
   display: flex;
   justify-content: space-between;
-  padding-right: 20px;
+}
+
+.header .left-links, 
+.header .right-links {
+  display: flex;
+  padding: 0 35px;
   gap: 10px;
   list-style-type: none;
 }
@@ -42,6 +45,14 @@ input {
 .header a {
   color: grey;
   text-decoration: none;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 40px;
 }
 
 
