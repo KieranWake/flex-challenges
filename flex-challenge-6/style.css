@@ -3,7 +3,7 @@
 body {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  min-height: 100vh;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -57,6 +57,17 @@ input {
 
 .buttons button {
   padding: 5px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto;
+}
+
+.footer .left-links,
+.footer .right-links {
+  display: flex;
 }
 
 
