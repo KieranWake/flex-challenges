@@ -37,7 +37,7 @@ input {
 .header .left-links, 
 .header .right-links {
   display: flex;
-  padding: 0 35px;
+  padding: 0 30px;
   gap: 10px;
   list-style-type: none;
 }
@@ -53,6 +53,10 @@ input {
   align-items: center;
   flex-direction: column;
   margin-top: 40px;
+}
+
+.buttons button {
+  padding: 5px;
 }
 
 
