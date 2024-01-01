@@ -15,7 +15,7 @@ body {
   }
 
   .header h1 {
-    font-size: 1.5em;
+    font-size: 2em;
     padding-left: .8rem;
   }
   
@@ -24,11 +24,23 @@ body {
     background: #eee;
     color: darkmagenta;
   }
+
+  ul {
+    list-style-type: none;
+  }
   
   .sidebar {
-    width: 300px;
+    display: flex;
+    width: 20rem;
+    margin-top: auto;
     background: royalblue;
     box-sizing: border-box;
+  }
+
+  .sidebar a {
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
   }
   
   .card {
