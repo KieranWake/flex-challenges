@@ -56,18 +56,27 @@ input {
 }
 
 .buttons button {
-  padding: 5px;
+  padding: 10px;
 }
 
 .footer {
   display: flex;
   justify-content: space-between;
   margin-top: auto;
+  background-color: #eeeeee;
 }
 
 .footer .left-links,
 .footer .right-links {
   display: flex;
+  padding: 0 30px;
+  list-style-type: none;
+  gap: 10px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: grey;
 }
 
 
