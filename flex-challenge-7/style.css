@@ -4,6 +4,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
   }
   
   .header {
@@ -40,6 +41,12 @@ body {
     box-sizing: border-box;
   }
 
+  .content-container {
+    display: flex;
+    flex-direction: row;
+    min-height: 75vh;
+  }
+
   .sidebar a {
     font-weight: 500;
     font-size: 1.2em;
@@ -58,6 +65,7 @@ body {
   }
 
   .card {
+    display: grid;
     border: 1px solid #eee;
     box-shadow: 2px 4px 16px rgba(0,0,0,.06);
     border-radius: 4px;
