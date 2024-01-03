@@ -17,13 +17,13 @@ body {
   }
 
   .header h1 {
-    font-size: 2em;
+    font-size: 1.5em;
     padding-left: .8rem;
   }
   
   .footer {
     margin-top: auto;
-    height: 72px;
+    height: 75px;
     background: #eee;
     color: darkmagenta;
   }
@@ -35,7 +35,7 @@ body {
   .sidebar {
     display: flex;
     justify-content: flex-start;
-    width: 20rem;
+    width: 30rem;
     min-height: 100%;
     background: royalblue;
     box-sizing: border-box;
@@ -49,7 +49,7 @@ body {
 
   .sidebar a {
     font-weight: 500;
-    font-size: 1.2em;
+    font-size: 1em;
     color: #fff;
     text-decoration: none;
     margin-left: 0rem;
@@ -57,16 +57,18 @@ body {
   }
 
   .card-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    padding: 30px;
+    gap: 10px;
   }
 
   .card {
-    display: grid;
+    display: flex;
+    justify-content: center;
+    width: 30rem;
     border: 1px solid #eee;
-    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    box-shadow: 2px 4px 16px rgba(68, 58, 58, 0.06);
     border-radius: 4px;
   }
