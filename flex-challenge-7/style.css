@@ -63,10 +63,11 @@ body {
   }
 
   .card {
-    width: 30rem;
+    display: flex;
+    align-items: flex-start;
     padding: 20px;
     margin: 20px;
-    width: 150px;
+    width: 200px;
     border: 1px solid #eee;
     box-shadow: 2px 4px 16px rgba(0,0,0,.06);
     border-radius: 4px;
