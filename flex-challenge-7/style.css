@@ -36,7 +36,9 @@ body {
   .sidebar {
     display: flex;
     justify-content: flex-start;
-    width: 30rem;
+    flex-shrink: 0;
+    width: 20rem;
+    padding: 2px;
     min-height: 100%;
     background: royalblue;
     box-sizing: border-box;
